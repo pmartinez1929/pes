@@ -1,0 +1,43 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #2e7dc8;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e42745;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$green-transparent:#0ce7a369;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$gray:#333;
+$white:white;
+$white-transparent:rgba(255,255,255,0.3);
+
+
+$font_extra_large:2.5rem;
+$font_large:2rem;
+$font_medium:1.5rem;
+$font_base:1rem;
+$font_small:0.8rem;
+
+.nav-link{
+  color:$white !important;
+  font-size: $font_base;
+}
+
+a{
+  &:hover{
+    text-decoration: none !important;
+    transition: 0.3s all;
+    transform: scale(1.05);
+  }
+}
